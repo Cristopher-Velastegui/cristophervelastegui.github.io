@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('assets/css/Cripto.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Times New Roman', sans-serif;
+}
+
+.encabezado-p h1 {
+  height: 100px;
+  text-align: center;
+  font-size: 60px;
+  line-height: 100px;
+}
+
+.encabezado-p p {
+  height: 100px;
+  text-align: center;
+  font-size: 40px;
+  line-height: 100px;
+}
+
+.box {
+  width: 750px;
+  background: rgba(0, 0, 0, .60);
+  padding: 25px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 0px;
+  color: white;
+  font-family: 'Times New Roman', sans-serif;
+  border-radius: 15px;
+}
+
+.paginas a {
+  color: white;
+}
+
+.paginas {
+  text-align: left;
+  padding: 20px;
+  margin: 0 auto;
+}

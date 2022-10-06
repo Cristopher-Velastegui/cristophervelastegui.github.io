@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../img/Fondo1.webp);
+    background-size: cover;
+    font-family: 'Times New Roman', sans-serif;
+}
+
+.encabezado h1 {
+  height: 100px;
+  text-align: center;
+  font-size: 60px;
+  line-height: 100px;
+}
+
+.encabezado p {
+  height: 100px;
+  text-align: center;
+  font-size: 40px;
+  line-height: 100px;
+}
+
+.box {
+  width: 750px;
+  background: rgba(0, 0, 0, .60);
+  padding: 25px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 0px;
+  color: white;
+  font-family: 'Times New Roman', sans-serif;
+  border-radius: 15px;
+}
+
+.register {
+  padding: 100px;
+  margin: auto;
+  font-family: 'Times New Roman';
+  color: white;
+}
+
+.register h4 {
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+
+.control {
+  width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: 'Times New Roman';
+  font-size: 18px;
+  color: white;
+}
+
+.register p {
+  height: 20px;
+  text-align: center;
+  font-size: 15px;
+  line-height: 55px;
+}
+
+.register a {
+  color: white;
+}
+
+.register .boton {
+  width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+.paginas a {
+  color: white;
+}
+
+.paginas {
+  text-align: left;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.botones-inicio .boton {
+  width: 300px;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 50px 0;
+  font-size: 16px;
+}

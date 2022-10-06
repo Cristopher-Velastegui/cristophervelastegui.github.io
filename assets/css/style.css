@@ -1,0 +1,342 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 75px;
+  background: rgb(25, 13, 128);
+  box-shadow: 0 4px 25px -22px rgb(0, 0, 0);
+  z-index: 2;
+}
+
+.cont-encabezado{
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo{
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo h1 b{
+  color: aqua;
+}
+
+.menu{
+  height: 70px;
+}
+
+.menu nav{
+  height: 100%;
+}
+
+.menu nav ul{
+  height: 100%;
+  display: flex;
+  list-style: none;
+}
+
+.menu nav ul li{
+  height: 100%;
+  margin: 0% 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.menu-select:before{
+  content: '';
+  width: 100%;
+  height: 4px;
+  background: aqua;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.menu nav ul li a{
+  color: white;
+}
+
+.menu nav ul li a:hover{
+  color: aqua;
+  transition: color 400ms;
+}
+
+.menu .text-menu-select{
+  color: aqua;
+}
+
+/*Portada*/
+.cover-contenido{
+  width: 100%;
+  height: 400px;
+  position: relative;
+  top: 40px;
+  background-image: url(../img/Fondo1.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cover-contenido:before{
+  content: '';
+  width: 100%;
+  height: 400px;
+  background: rgb(25, 13, 128, 0.400);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.info-contenido{
+  max-width: 800px;
+  height: 375px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.info-contenido h1{
+  font-size: 50px;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.info-contenido p{
+  color: white;
+  font-size: 20px;
+  font-weight: 300px;
+}
+
+/*Contenido de la pagina*/
+.cuerpo-contenido{
+  width: 1200px;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+article{
+  width: 1000px;
+  padding: 20px;
+  padding-bottom: 40px;
+  box-shadow: -10px 0 20px -30px black;
+  border-radius: 6px;
+  position: relative;
+  overflow: hidden;
+}
+
+article:before{
+  content: '';
+  width: 100%;
+  height: 6px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: aqua;
+}
+
+article h1{
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+article p{
+  margin-top: 20px;
+  font-size: 18px;
+  color: whitesmoke;
+  text-align: justify;
+}
+
+article img{
+  width: 100%;
+  margin-top: 20px;
+}
+
+/*Aside de los Articulos*/
+
+.aside-contenido aside{
+  width: 320px;
+  box-shadow: 0 0 20px -20px black;
+  overflow: hidden;
+  border-radius: 6px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+
+.aside-contenido aside img{
+  width: 100%;
+}
+
+.aside-contenido aside h2,
+.aside-contenido aside p{
+  margin-top: 20px;
+  padding: 0px 20px;
+}
+
+.aside-contenido aside button{
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 10px 50px;
+  font-size: 16px;
+  background-color: aqua;
+  border: none;
+  color: black;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.aside-contenido aside button:hover{
+  opacity: 0.9;
+}
+
+/*Cifrado Cesar*/
+
+.cifrado{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(41, 0, 224, 0.445);
+  color: white;
+}
+
+.cover-cifrado{
+  width: 100%;
+  height: 400px;
+  position: relative;
+  top: 40px;
+  background-image: url(/assets/img/CifradoCesar.png);
+  background-position: center;
+  background-size: 1310px 400px;
+  background-repeat: no-repeat;
+}
+
+.cover-cifrado:before{
+  content: '';
+  width: 100%;
+  height: 400px;
+  background: rgb(25, 13, 128, 0.700);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.info-cifrado{
+  max-width: 800px;
+  height: 375px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.info-cifrado h1{
+  text-align: center;
+  color: aqua;
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.cifrado input{
+  padding: 5px;
+}
+
+.input, button {
+  border: none;
+  outline: none;
+}
+
+.cifrado main{
+  width: 500px;
+  padding: 25px;
+  box-shadow: 8px 8px 35px 0px rgb(0 0 0 / 75%);
+}
+
+.cifrado h1{
+  margin: 0;
+  text-align: center;
+}
+
+#input-original, #resultado{
+  background-color: black;
+  width: -webkit-fill-available;
+}
+
+#input-original{
+  margin: 10px 0 0;
+  padding: 10px;
+  color: white;
+  border-top-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.rango{
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 30px;
+  text-align: center;
+  align-items: center;
+  background-color: black;
+  border-radius: 10px;
+  height: 20px;
+}
+
+.cifrado output{
+  background-color: aqua;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: black;
+  height: 20px;
+  text-align: center;
+}
+
+.cifrado div{
+  margin-top: 6px;
+}
+
+input[type='range']{
+  -webkit-appearance: none;
+  border-radius: var(--borde-redondo);
+  background:var(--color-terminal);
+  margin: 0;
+  padding: 0 5px;
+  height: 20px;
+}
+
+input[type='range']::-webkit-slider-thumb {
+  cursor: pointer;
+  -webkit-appearance: none;
+  background:white;
+  border-radius: 50%;
+  height:10px;
+  width:10px;
+}

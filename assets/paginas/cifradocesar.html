@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cifrado Cesar - Criptografia</title>
+  <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+  <script src="/assets/js/cifrado.js" type="text/javascript" defer></script>
+</head>
+<body bgcolor="black" text="white">
+  <br></br>
+  <!--Menu-->
+  <header>
+    <div class="cont-encabezado">
+
+      <div class="logo">
+        <h1>Cripto<b>Grafia</b></h1>
+
+      </div>
+      <div class="menu">
+        <nav>
+          <ul>
+            <li><a href="/index.html">Inicio</a></li>
+            <li class="menu-select"><a href="#" class="text-menu-select">Cifrado Cesar</a></li>
+            <li><a href="/assets/paginas/registrarse.html">Registrarse</a></li>
+            <li><a href="/assets/paginas/loguearse.html">Loguearse</a></li>
+            <li><a href="#">Sobre Nosotros</a></li>
+          </ul>
+        </nav>
+
+      </div>
+
+    </div>
+
+  </header>
+
+  <!--Portada-->
+  <div class="cover-cifrado">
+    <div class="info-cifrado">
+      <h1>Cifrado Cesar</h1>
+    </div>
+  </div>
+
+  <div class="cifrado">
+  <main>
+    <h1>Cifrado Cesar</h1>
+    <form id="cifrar" autocomplete="off">
+        <input id="input-original" spellcheck="false" placeholder="Ingrese el texto a cifrar" type="text" name="text">
+    </form>
+    <div id="resultado"></div>
+        <div class="rango">
+            <input id="rango" type="range" value="10" min="1" max="20" oninput="this.nextElementSibling.value = this.value">
+            <output>10</output>
+        </div>
+  </main>
+</div>
+</body>
